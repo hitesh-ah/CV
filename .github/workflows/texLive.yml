@@ -2,9 +2,9 @@ name: Latex_Action
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
 
 jobs:
   build:
@@ -12,17 +12,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v4
-    - name: Added few changes
-      run: |
-        cp AUTHORS AUTHORS.
-        cp LICENSE LICENSE.
-    - name: Compile LaTeX
-      uses: xu-cheng/latex-action@v3
-      with:
-        working_directory: 2024
-        root_file: cv.tex
-    - uses: actions/upload-artifact@v4
-      with:
-        name: 2024
-        path: 2024/HITESH_A_H_2024.pdf
+      - uses: xu-cheng/latex-action@v3
+  with:
+    root_file: |
+      2024/cv.tex
