@@ -1,8 +1,4 @@
-- uses: xu-cheng/latex-action@v3
-  with:
-    root_file: |
-      cv.tex
-name: Manual
+name: Latex_Action
 
 on:
   push:
