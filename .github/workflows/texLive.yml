@@ -13,7 +13,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
-    - name: Fix stupidity
+    - name: Added few changes
       run: |
         cp AUTHORS AUTHORS.
         cp LICENSE LICENSE.
