@@ -10,4 +10,4 @@ jobs:
         uses: repaction/texlive@main
         with:
           tex_files: |
-            2024/cv.tex
+            cv.tex
