@@ -13,6 +13,6 @@ jobs:
 
     steps:
       - uses: xu-cheng/latex-action@v3
-  with:
-    root_file: |
-      2024/cv.tex
+    with:
+      root_file: |
+        2024/cv.tex
