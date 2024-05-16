@@ -11,5 +11,5 @@ jobs:
       env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
-        tex_path: '2024/file.tex'
+        tex_path: '2024/cv.tex'
         push: 'yes'
